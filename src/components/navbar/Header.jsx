@@ -10,7 +10,7 @@ import SmsIcon from '@mui/icons-material/Sms';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
 function Header() {
-  return (
+  return (  
     <div className="header">
       <div className="left">
         <img src={logo} alt="" />
@@ -24,7 +24,7 @@ function Header() {
 
       <div className="right">
         <div className="headerOptionContainer">
-        <HeaderOption icon={HomeIcon}  title='Home' />
+        <HeaderOption icon={ HomeIcon }  title='Home' />
         <HeaderOption icon={SupervisorAccountIcon} title='My Network'/>
         <HeaderOption icon={WorkIcon} title='Job'/>
         <HeaderOption icon={SmsIcon} title='Messaging'/>
