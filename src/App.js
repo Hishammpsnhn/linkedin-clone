@@ -1,14 +1,12 @@
 import Header from './components/navbar/Header';
-import HeaderOption from './components/navbar/HeaderOption';
 
 function App() {
   return (
-   <>
-   <Header/>
-   <HeaderOption/>
-   
-   </>
+    <>
+      <Header />
+    </>
   );
 }
 
 export default App;
+
