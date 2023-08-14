@@ -1,0 +1,57 @@
+.header {
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    
+    }
+    
+    
+    
+    .left > img {
+      object-fit:contain;
+    
+    }
+    
+    .left{
+        display: flex;
+        height: 40px;
+        margin-right:10px ;
+        align-items: center;
+    
+    }
+    .search{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        border-radius:5px;
+        height:22px;
+        color: gray;
+        background-color:#eef3f8;
+    
+    }
+    .search > input{
+        outline: none;
+        border: none;
+       background: none;
+    
+    
+    }
+    
+    .home{
+        margin-right: 0px; /* Add margin to the right of the icon */
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .headerOptionContainer{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
