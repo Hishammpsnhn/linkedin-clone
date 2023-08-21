@@ -1,13 +1,27 @@
 import Header from './components/navbar/Header';
-import HeaderOption from './components/navbar/HeaderOption';
+import Sidebar from './components/Sidebar/Sidebar'
+import Feed from './components/Feed/Feed';
+
 
 function App() {
   return (
-   <>
-   <Header/>
-   <HeaderOption/>
+    <div className="app">
+         <Header/>
+
+
+         <div className="app_body">
+            <Sidebar/>
+            <Feed/>
+         </div>
+
+
+
+   </div>
+
    
-   </>
+
+    
+  
   );
 }
 
