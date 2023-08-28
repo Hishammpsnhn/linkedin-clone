@@ -5,7 +5,7 @@ function HeaderOption({ icon: IconComponent, title }) {
   return (
     <div className='headerOption'>
       {IconComponent && <IconComponent className='icons' />}
-      <h3 className='headerOption__title'>{title}</h3>
+      <a href='/' className='headerOption__title'>{title}</a>
     </div>
   );
 }

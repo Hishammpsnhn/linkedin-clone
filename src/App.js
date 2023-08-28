@@ -7,12 +7,10 @@ function App() {
   return (
     <div className="app">
          <Header/>
-
-
-         <div className="app_body">
             <Sidebar/>
+         {/* <div className="app_body">
             <Feed/>
-         </div>
+         </div> */}
 
 
 
