@@ -7,8 +7,10 @@ function Sidebar() {
 
   const recentItem = (topic) => (
     <div className="sidebar__recentitems">
-      <span className='sidebar__hash'>#</span>
-      <p>{topic}</p>
+      <span className='sidebar__hash'>
+        #
+        <span> {topic}</span>
+      </span>
     </div>
   )
 
@@ -25,32 +27,32 @@ function Sidebar() {
         <div style={{ borderTop: "2px solid #C1D1D0 ", marginTop: '10px', marginBottom: '10px' }}></div>
         <div className='sidebar_top_text'>
           <span>Connections</span><br />
-          <span className='sidebar__statNo' style={{textDecoration:'none'}}>connect with alumini</span>
+          <span className='sidebar__statNo' style={{ textDecoration: 'none' }}>connect with alumini</span>
         </div>
         <div style={{ borderTop: "2px solid #C1D1D0 ", marginTop: '10px', marginBottom: '10px' }}></div>
-        <div className='sidebar_top_text' style={{marginBottom:'10px'}}>
+        <div className='sidebar_top_text' style={{ marginBottom: '10px' }}>
           <span>Access exclusive tools & insights</span><br></br>
           <span className="sidebar__statNo">Try sale navigator</span>
         </div>
       </div>
 
-      {/* <div className="sidebar__bottom">
-          <p>Recent</p>
-          {recentItem('Angular,React,Vuejs,Nodejs...')}
-          {recentItem('software engineer')}
-          {recentItem('developer')}
-          {recentItem('reactjs')}
-          {recentItem('reactjs')}
+      <div className="sidebar__bottom_list">
+        <p>Recent</p>
+        {recentItem('Angular,React,Vuejs,Nodejs...')}
+        {recentItem('software engineer')}
+        {recentItem('developer')}
+        {recentItem('reactjs')}
+        {recentItem('reactjs')}
 
-          <p>Groups</p>
-          {recentItem('Angular,React,Vuejs,Nodejs...')}
-          {recentItem('software engineer')}
-          
-          <p>Events</p>
-          <p>Followed Hashtags</p>
+        <p>Groups</p>
+        {recentItem('Angular,React,Vuejs,Nodejs...')}
+        {recentItem('software engineer')}
+
+        <p>Events</p>
+        <p>Followed Hashtags</p>
 
 
-      </div> */}
+      </div>
 
 
 

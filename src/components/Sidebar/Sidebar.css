@@ -54,7 +54,7 @@
 }
 .sidebar__recentitems {
   display: flex;
-  font-size: 13px;
+  font-size: 14px;
   color: gray;
   font-weight: bolder;
   cursor: pointer;
@@ -68,4 +68,10 @@
 .sidebar__hash {
   margin-right: 10px;
   margin-left: 5px;
+}
+.sidebar__bottom_list{
+  background-color: white;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10px;
 }
