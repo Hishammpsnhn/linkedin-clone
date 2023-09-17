@@ -1,0 +1,33 @@
+.InputOption{
+    margin-top: 13px;
+}
+.MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root{
+    margin-top: 13px;
+
+}
+.icon{
+    margin-bottom: -21px;
+    margin-left: 35px;
+}
+.title{
+    margin-left: 69px;
+    margin-bottom: 80px;
+    margin-top: -4px;
+    
+    
+}
+.Event{
+    margin-left: 159px;
+    margin-top: -117px;
+}
+.article{
+    margin-left: 302px;
+    margin-top: -117px;
+}
+.inputOption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.inputoption > {
+    margin-left: 5px;
+}
